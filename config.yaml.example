@@ -1,0 +1,10 @@
+aria2:
+  # aria2 config file
+  config: /xxx/.aria2/aria2.conf
+  # please make sure there is no separator at the end
+  download_path: /xxx/downloads
+
+# session is a mechanism that remembers last download item to prevent from repeated download
+session:
+  enabled: true
+  path: xxx/bt7086.session
